@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* border: solid 1px; */
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.hide {
+    display: none;
+}
+
+button, input[type="submit"] {
+    background-color: #004280;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    /* transition: 200ms */
+}
+
+button:hover, input[type="submit"]{
+    transition: 300ms;
+    opacity: 1;
+}
+
+#container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    background-color: rgb(255, 243, 227);
+    box-shadow: inset 0 0 10px rgb(233, 222, 162), 0 0 5px #2e3c4b;
+}
+
+.post-title {
+    margin-bottom: 15px;
+}
+
+.post-body {
+    margin-bottom: 15px;
+}
+
+.post-button {
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+.btn-download{
+    background-color: #2e3c4b;
+    margin-left: 40%;
+    margin-bottom: 100px;
+}
